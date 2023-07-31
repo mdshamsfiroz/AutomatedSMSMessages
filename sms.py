@@ -1,8 +1,8 @@
 # Install Twilio library first: pip install twilio
 from twilio.rest import Client
 # Your Twilio account SID and Auth Token
-account_sid = 'ACf117b9bb344f57c6d564f508f0649812'
-auth_token = '1fe20059142e4c39cc34671beae845e9'
+account_sid = 'ACf117b9bb344f57c6d54f508f0649812'
+auth_token = '1fe20059142ec39cc34671beae845e9'
 # Create a Twilio client
 client = Client(account_sid, auth_token)
 # Replace 'to_phone_number' with the recipient's phone number
